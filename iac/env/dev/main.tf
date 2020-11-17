@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 0.12"
+  required_version = ">= 0.13"
 
   backend "s3" {
     region  = "us-east-1"
@@ -10,7 +10,6 @@ terraform {
 }
 
 provider "aws" {
-  version = ">= 2.27.0"
   region  = var.region
   profile = var.aws_profile
 }

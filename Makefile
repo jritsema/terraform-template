@@ -14,11 +14,6 @@ init:
 	asdf install
 	ln -s ../../pre-commit.sh .git/hooks/pre-commit
 
-## tfsummary: brief terraform plan summary
-.PHONY: tfsummary
-tfsummary:
-	terraform plan | grep " resource "
-
 ## tffmt: runs terraform fmt against iac/base and iac/env/dev
 .PHONY: tffmt
 tffmt:
