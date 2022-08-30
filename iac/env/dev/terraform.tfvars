@@ -1,13 +1,13 @@
-aws_profile = ""
+# aws_profile = ""
 
-app = ""
+# app = ""
 
-environment = ""
+# environment = ""
 
-tags = {
-  application   = ""
-  customer      = ""
-  contact-email = ""
-  environment   = ""
-  team          = ""
-}
+# tags = {
+#   application   = ""
+#   customer      = ""
+#   contact-email = ""
+#   environment   = ""
+#   team          = ""
+# }
